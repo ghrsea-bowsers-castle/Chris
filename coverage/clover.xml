@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1554823847960" clover="3.2.0">
+  <project timestamp="1554823847960" name="All files">
+    <metrics statements="108" coveredstatements="62" conditionals="36" coveredconditionals="16" methods="34" coveredmethods="17" elements="178" coveredelements="95" complexity="0" loc="108" ncloc="108" packages="2" files="6" classes="6"/>
+    <package name="src">
+      <metrics statements="45" coveredstatements="19" conditionals="16" coveredconditionals="6" methods="18" coveredmethods="7"/>
+      <file name="index.jsx" path="/Users/rorybroves/Reviews-Module/client/src/index.jsx">
+        <metrics statements="43" coveredstatements="18" conditionals="16" coveredconditionals="6" methods="18" coveredmethods="7"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="12" count="0" type="stmt"/>
+        <line num="14" count="0" type="stmt"/>
+        <line num="15" count="0" type="stmt"/>
+        <line num="17" count="0" type="stmt"/>
+        <line num="26" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="27" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="28" count="0" type="stmt"/>
+        <line num="33" count="0" type="stmt"/>
+        <line num="34" count="0" type="stmt"/>
+        <line num="36" count="0" type="stmt"/>
+        <line num="39" count="1" type="stmt"/>
+        <line num="40" count="3" type="stmt"/>
+        <line num="41" count="12" type="stmt"/>
+        <line num="42" count="3" type="stmt"/>
+        <line num="43" count="3" type="stmt"/>
+        <line num="48" count="3" type="stmt"/>
+        <line num="49" count="3" type="stmt"/>
+        <line num="68" count="3" type="stmt"/>
+        <line num="69" count="3" type="stmt"/>
+        <line num="70" count="3" type="stmt"/>
+        <line num="71" count="3" type="stmt"/>
+        <line num="75" count="0" type="stmt"/>
+        <line num="76" count="0" type="stmt"/>
+        <line num="77" count="0" type="stmt"/>
+        <line num="87" count="0" type="stmt"/>
+        <line num="88" count="0" type="stmt"/>
+        <line num="94" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="95" count="0" type="stmt"/>
+        <line num="97" count="0" type="stmt"/>
+        <line num="103" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="104" count="0" type="stmt"/>
+        <line num="106" count="0" type="stmt"/>
+        <line num="114" count="3" type="stmt"/>
+        <line num="117" count="3" type="stmt"/>
+        <line num="118" count="0" type="stmt"/>
+        <line num="119" count="0" type="stmt"/>
+        <line num="128" count="3" type="stmt"/>
+        <line num="133" count="4" type="stmt"/>
+        <line num="141" count="0" type="stmt"/>
+        <line num="184" count="10" type="stmt"/>
+      </file>
+      <file name="main.js" path="/Users/rorybroves/Reviews-Module/client/src/main.js">
+        <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="5" count="0" type="stmt"/>
+      </file>
+      <file name="sampleData.js" path="/Users/rorybroves/Reviews-Module/client/src/sampleData.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="2" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components">
+      <metrics statements="63" coveredstatements="43" conditionals="20" coveredconditionals="10" methods="16" coveredmethods="10"/>
+      <file name="PagesOfReviews.jsx" path="/Users/rorybroves/Reviews-Module/client/src/components/PagesOfReviews.jsx">
+        <metrics statements="32" coveredstatements="17" conditionals="12" coveredconditionals="5" methods="8" coveredmethods="4"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="23" count="1" type="stmt"/>
+        <line num="35" count="2" type="stmt"/>
+        <line num="36" count="2" type="stmt"/>
+        <line num="42" count="2" type="stmt"/>
+        <line num="43" count="2" type="stmt"/>
+        <line num="44" count="2" type="stmt"/>
+        <line num="48" count="0" type="stmt"/>
+        <line num="49" count="0" type="stmt"/>
+        <line num="50" count="0" type="stmt"/>
+        <line num="51" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="52" count="0" type="stmt"/>
+        <line num="53" count="0" type="stmt"/>
+        <line num="54" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="55" count="0" type="stmt"/>
+        <line num="56" count="0" type="stmt"/>
+        <line num="57" count="0" type="stmt"/>
+        <line num="65" count="0" type="stmt"/>
+        <line num="66" count="0" type="stmt"/>
+        <line num="74" count="0" type="stmt"/>
+        <line num="75" count="0" type="stmt"/>
+        <line num="83" count="2" type="cond" truecount="1" falsecount="1"/>
+        <line num="84" count="2" type="stmt"/>
+        <line num="92" count="3" type="stmt"/>
+        <line num="93" count="3" type="stmt"/>
+        <line num="94" count="3" type="stmt"/>
+        <line num="95" count="3" type="stmt"/>
+        <line num="96" count="5" type="stmt"/>
+        <line num="100" count="3" type="stmt"/>
+        <line num="103" count="3" type="stmt"/>
+        <line num="109" count="0" type="stmt"/>
+      </file>
+      <file name="Reviews.jsx" path="/Users/rorybroves/Reviews-Module/client/src/components/Reviews.jsx">
+        <metrics statements="18" coveredstatements="15" conditionals="4" coveredconditionals="4" methods="6" coveredmethods="4"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="5" type="stmt"/>
+        <line num="6" count="5" type="stmt"/>
+        <line num="7" count="5" type="stmt"/>
+        <line num="8" count="5" type="stmt"/>
+        <line num="13" count="10" type="stmt"/>
+        <line num="14" count="10" type="stmt"/>
+        <line num="21" count="0" type="stmt"/>
+        <line num="24" count="0" type="stmt"/>
+        <line num="28" count="10" type="cond" truecount="2" falsecount="0"/>
+        <line num="29" count="5" type="stmt"/>
+        <line num="30" count="5" type="stmt"/>
+        <line num="40" count="10" type="stmt"/>
+        <line num="41" count="10" type="cond" truecount="2" falsecount="0"/>
+        <line num="42" count="5" type="stmt"/>
+        <line num="45" count="0" type="stmt"/>
+        <line num="48" count="5" type="stmt"/>
+        <line num="53" count="10" type="stmt"/>
+      </file>
+      <file name="Stars.jsx" path="/Users/rorybroves/Reviews-Module/client/src/components/Stars.jsx">
+        <metrics statements="13" coveredstatements="11" conditionals="4" coveredconditionals="1" methods="2" coveredmethods="2"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="14" count="21" type="stmt"/>
+        <line num="15" count="21" type="stmt"/>
+        <line num="16" count="105" type="cond" truecount="1" falsecount="1"/>
+        <line num="17" count="105" type="stmt"/>
+        <line num="18" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="19" count="0" type="stmt"/>
+        <line num="22" count="21" type="stmt"/>
+        <line num="24" count="1" type="stmt"/>
+        <line num="25" count="21" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>

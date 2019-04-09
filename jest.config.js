@@ -14,9 +14,9 @@ module.exports = {
     // An array of regexp pattern strings that are matched against all source file paths, matched files will skip transformation
     transformIgnorePatterns: ['<rootDir>/node_modules/'],
     // Indicates whether each individual test should be reported during the run
-    transform: {
-        "^.+\\.jsx$": "babel-jest",
-        "^.+\\.js$": "babel-jest"
-        },
+    // transform: {
+    //     "^.+\\.jsx$": "babel-jest",
+    //     "^.+\\.js$": "babel-jest"
+    //     },
     verbose: false,
   };

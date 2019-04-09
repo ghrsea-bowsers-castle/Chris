@@ -4,7 +4,7 @@ import axios from 'axios';
 import Reviews from './components/Reviews.jsx'
 import Stars from './components/Stars.jsx'
 import PageNavBar from './components/PagesOfReviews.jsx'
-require('./style.css')
+import('./style.css')
 
 const findRatingsAverage = (array)=> {
     var output = {}
@@ -35,12 +35,14 @@ const findRatingsAverage = (array)=> {
     }
     return output; 
 }
+
 const getListingId = (url) =>{
    var listingEnding = url.slice(-4).split('');
    listingEnding = listingEnding.filter( (element) => element != '/');
    listingEnding = listingEnding.join('')
    return Number(listingEnding)
 }
+
 class App extends React.Component{
     constructor(props){
         super(props);
@@ -133,7 +135,7 @@ class App extends React.Component{
                 <div className = "listings-reviews-header">
                     <div className = "reviews-overview">
                         <h2> {this.state.totalReviews} Reviews </h2>
-                        <Stars starCount = {this.state.ratings.overall_rating}/>
+                        <Stars id= "overall-rating"starCount = {this.state.ratings.overall_rating}/>
                     </div>
                     <form className= "search-form" onSubmit= {this.submitSearchTerm}>
                         <input placeholder= "Search Reviews" type= "text" onChange ={(e)=> this.searchTermUpdate(e)} onSubmit ={this.submitSearchTerm}></input>
