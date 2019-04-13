@@ -3,9 +3,10 @@ module.exports = {
   development: {
     client: 'mysql',
     connection: {
-      host: 'localhost',
+      host: 'database',
+      port: '3306',
       user: 'root',
-      password: '',
+      password: 'password',
       database: 'reviews'
     },
     migrations: {

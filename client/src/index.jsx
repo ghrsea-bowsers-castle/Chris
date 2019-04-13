@@ -73,7 +73,7 @@ class App extends React.Component{
 
     submitSearchTerm(e){
         e.preventDefault();
-        axios.get(`/listings/${this.state.listing}/reviews?search=${this.state.searchTerm}`).then( (result)=> {
+        axios.get(`http://ec2-3-14-15-197.us-east-2.compute.amazonaws.com:1550/listings/${this.state.listing}/reviews?search=${this.state.searchTerm}`).then( (result)=> {
             this.setState({
                 termSearched: this.state.searchTerm,
                 hasSearched: true,
@@ -92,7 +92,7 @@ class App extends React.Component{
 
     loadMoreReviews(offset){
         if(this.state.hasSearched === false){
-            axios.get(`/listings/${this.state.listing}/page?offset=${offset}`)
+            axios.get(`http://ec2-3-14-15-197.us-east-2.compute.amazonaws.com:1550/listings/${this.state.listing}/page?offset=${offset}`)
             .then( (result)=>{
                 this.setState({
                     reviews: result.data.reviews
@@ -101,7 +101,7 @@ class App extends React.Component{
         }
 
         if(this.state.hasSearched === true){
-            axios.get(`/listings/${this.state.listing}/page?offset=${offset}&search=${this.state.termSearched}`)
+            axios.get(`http://ec2-3-14-15-197.us-east-2.compute.amazonaws.com:1550/listings/${this.state.listing}/page?offset=${offset}&search=${this.state.termSearched}`)
             .then( (result)=>{
                 this.setState({
                     reviews: result.data.reviews
@@ -114,7 +114,7 @@ class App extends React.Component{
         this.setState({
             hasSearched: false,
         })
-        axios.get(`/listings/${this.state.listing}`).then( (result)=> {
+        axios.get(`http://ec2-3-14-15-197.us-east-2.compute.amazonaws.com:1550/listings/${this.state.listing}`).then( (result)=> {
             var ratingsSummary = findRatingsAverage(result.data.reviews);
              this.setState({
                 reviews: result.data.reviews,

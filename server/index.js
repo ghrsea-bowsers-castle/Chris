@@ -1,8 +1,10 @@
 const express = require('express');
 const bodyParser = require('body-parser');
+const cors = require('cors')
 const db = require('../database/index');
 let app = express();
 
+app.use(cors())
 app.use('/:id', express.static( __dirname + '/../client/dist'));
 app.use(bodyParser());
 
